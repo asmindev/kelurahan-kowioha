@@ -15,13 +15,14 @@ const LAYER = [
         layer: "http://{s}.google.com/vt?lyrs=s&x={x}&y={y}&z={z}",
     },
     {
-        name: "street",
-        layer: "http://{s}.google.com/vt?lyrs=m&x={x}&y={y}&z={z}",
-    },
-    {
         name: "hybrid",
         layer: "http://{s}.google.com/vt?lyrs=s,h&x={x}&y={y}&z={z}",
     },
+    {
+        name: "street",
+        layer: "http://{s}.google.com/vt?lyrs=m&x={x}&y={y}&z={z}",
+    },
+
     {
         name: "terrain",
         layer: "http://{s}.google.com/vt?lyrs=p&x={x}&y={y}&z={z}",
@@ -30,7 +31,6 @@ const LAYER = [
 
 const LocationMarker = () => {
     const [position, setPosition] = useState(null);
-
     const map = useMapEvents({
         click(e) {
             console.log(e.latlng);
@@ -80,7 +80,9 @@ const Layer = ({ layer, setLayer }) => {
 };
 export default function Maps() {
     // -4.08285/121.68303
-    const root = [-4.08285, 121.68303];
+    // Object { lat: -4.1123312761602655, lng: 121.67717009782793 }
+
+    const root = [-4.1123312761602655, 121.67717009782793];
     const [layer, setLayer] = useState(LAYER[1]);
     return (
         <div className="w-full h-full border my-4 relative">
@@ -88,7 +90,7 @@ export default function Maps() {
             <MapContainer
                 className="w-full h-full min-h-96 overflow-hidden"
                 center={root}
-                zoom={13}
+                zoom={16}
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -96,6 +98,11 @@ export default function Maps() {
                     maxZoom={20}
                     subdomains={["mt0", "mt1", "mt2", "mt3"]}
                 />
+                <Marker position={root}>
+                    <Popup>
+                        Kelurahan Kowioha <br /> Kec. Wundulako, Kolaka
+                    </Popup>
+                </Marker>
                 <LocationMarker />
             </MapContainer>
         </div>

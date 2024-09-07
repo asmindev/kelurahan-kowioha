@@ -8,7 +8,10 @@ export default function Activity({ activity }) {
                 <div className="my-8 columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-">
                     {activity.map((item) => (
                         <div key={item.id} className="mb-4">
-                            <img src={item.image} alt={item.title} />
+                            <img
+                                src={`/storage/${item.image}`}
+                                alt={item.title}
+                            />
                         </div>
                     ))}
                 </div>

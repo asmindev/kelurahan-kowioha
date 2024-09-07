@@ -22,7 +22,7 @@ export default function Marquee({ children, options }) {
                 options={{
                     type: options?.type || "loop",
                     arrows: options?.arrows || false,
-                    perPage: windowWidth > 768 ? 4 : 2,
+                    perPage: windowWidth > 768 ? 5 : 3,
                     speed: options?.speed || 500,
                     pagination: options?.pagination || false,
                     pauseOnHover: options?.pauseOnHover || false,

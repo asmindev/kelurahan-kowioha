@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('address');
             $table->string('image');
-            $table->string('description');
+            $table->text('description');
             $table->string('latitude');
             $table->string('longitude');
             $table->enum('type', ['wisata', 'sejarah']);

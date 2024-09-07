@@ -5,7 +5,7 @@
                 "uuid": "8a4a3e97-acbc-4b70-804c-9c6c4ba62e01",
                 "id": 1,
                 "createdAt": "2024-08-29 14:59:30",
-                "updatedAt": "2024-08-29 17:58:54",
+                "updatedAt": "2024-09-06 04:20:33",
                 "settings": {
                     "cssFramework": "tailwind",
                     "uiStarterKit": "other",
@@ -111,10 +111,10 @@
                 "vthemeCdn": "https://cdn.tailwindcss.com",
                 "connectionFinished": true,
                 "canIgnoreNextSchemaSourceChanges": false,
-                "lastReadSchemaDataHash": "a12c64d88cf3c8b63d22435b7140161b",
+                "lastReadSchemaDataHash": "ea6963a3456ccb11b1e27bb51a2c52af",
                 "currentSchemaError": null,
                 "currentSchemaErrorStack": null,
-                "currentZoom": 100
+                "currentZoom": 60
             },
             "__tableData": {
                 "count": 1,
@@ -131,11 +131,19 @@
                                 6,
                                 7,
                                 8,
-                                9
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
                             ],
                             "models.projectId": [
                                 1,
-                                2
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
                             ],
                             "app_sections.projectId": [
                                 1,
@@ -158,6 +166,9 @@
                                 4,
                                 5,
                                 6
+                            ],
+                            "relationships.projectId": [
+                                1
                             ]
                         }
                     }
@@ -516,15 +527,15 @@
                 },
                 "id": 1,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
-                "positionX": 0,
-                "positionY": 0,
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "140",
+                "positionY": "221.667",
                 "sectionId": 1,
                 "removed": false
             },
             "__tableData": {
-                "count": 9,
-                "lastPrimaryKey": 9,
+                "count": 13,
+                "lastPrimaryKey": 13,
                 "index": {
                     "1": {
                         "hasMany": {
@@ -642,6 +653,72 @@
                             ],
                             "cruds.tableId": [
                                 2
+                            ]
+                        }
+                    },
+                    "10": {
+                        "hasMany": {
+                            "columns.tableId": [
+                                57,
+                                58,
+                                59,
+                                60,
+                                61
+                            ],
+                            "models.tableId": [
+                                3
+                            ]
+                        }
+                    },
+                    "11": {
+                        "hasMany": {
+                            "columns.tableId": [
+                                62,
+                                63,
+                                64,
+                                65,
+                                66,
+                                67,
+                                68,
+                                69,
+                                70,
+                                71
+                            ],
+                            "models.tableId": [
+                                5
+                            ]
+                        }
+                    },
+                    "12": {
+                        "hasMany": {
+                            "columns.tableId": [
+                                72,
+                                73,
+                                74,
+                                75
+                            ],
+                            "indices.onTableId": [
+                                2
+                            ],
+                            "models.tableId": [
+                                4
+                            ]
+                        }
+                    },
+                    "13": {
+                        "hasMany": {
+                            "columns.tableId": [
+                                76,
+                                77,
+                                79,
+                                80,
+                                81
+                            ],
+                            "indices.tableId": [
+                                2
+                            ],
+                            "models.tableId": [
+                                6
                             ]
                         }
                     }
@@ -998,7 +1075,7 @@
                 },
                 "id": 2,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -1352,7 +1429,7 @@
                 },
                 "id": 3,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -1520,7 +1597,7 @@
                 },
                 "id": 4,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -1688,7 +1765,7 @@
                 },
                 "id": 5,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -2138,7 +2215,7 @@
                 },
                 "id": 6,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -2588,7 +2665,7 @@
                 },
                 "id": 7,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -3038,7 +3115,7 @@
                 },
                 "id": 8,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51",
+                "updatedAt": "2024-09-04 15:02:34",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -3238,10 +3315,662 @@
                 },
                 "id": 9,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:04:50",
-                "positionX": "-422",
-                "positionY": "-97",
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "-778.667",
+                "positionY": "-10.3333",
                 "sectionId": 1,
+                "removed": false
+            },
+            "item_10": {
+                "projectId": 1,
+                "name": "activities",
+                "migrations": [
+                    {
+                        "migration": "/home/zett/project/kowioha/database/migrations/2024_08_29_083559_create_activities_table.php",
+                        "relativePath": "/database/migrations/2024_08_29_083559_create_activities_table.php",
+                        "migrationName": "2024_08_29_083559_create_activities_table",
+                        "datePrefix": "2024_08_29",
+                        "fullPrefix": "2024_08_29_083559",
+                        "addedColumns": [
+                            {
+                                "type": "uuid",
+                                "name": "id",
+                                "table": "activities",
+                                "creatorMethod": "uuid",
+                                "primary": true
+                            },
+                            {
+                                "type": "string",
+                                "name": "title",
+                                "length": 255,
+                                "table": "activities",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "image",
+                                "length": 255,
+                                "table": "activities",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "created_at",
+                                "precision": 0,
+                                "table": "activities",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "updated_at",
+                                "precision": 0,
+                                "table": "activities",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            }
+                        ],
+                        "changedColumns": [],
+                        "droppedColumns": [],
+                        "renamedColumns": [],
+                        "commands": [
+                            {
+                                "name": "create",
+                                "table": "activities"
+                            }
+                        ],
+                        "createdTables": [
+                            "activities"
+                        ],
+                        "renamedTables": [],
+                        "droppedTables": []
+                    }
+                ],
+                "oldNames": [],
+                "createdFromInterface": false,
+                "labelColumnId": null,
+                "schemaState": {
+                    "name": "activities",
+                    "oldNames": [],
+                    "migrations": [
+                        {
+                            "migration": "/home/zett/project/kowioha/database/migrations/2024_08_29_083559_create_activities_table.php",
+                            "relativePath": "/database/migrations/2024_08_29_083559_create_activities_table.php",
+                            "migrationName": "2024_08_29_083559_create_activities_table",
+                            "datePrefix": "2024_08_29",
+                            "fullPrefix": "2024_08_29_083559",
+                            "addedColumns": [
+                                {
+                                    "type": "uuid",
+                                    "name": "id",
+                                    "table": "activities",
+                                    "creatorMethod": "uuid",
+                                    "primary": true
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "title",
+                                    "length": 255,
+                                    "table": "activities",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "image",
+                                    "length": 255,
+                                    "table": "activities",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "created_at",
+                                    "precision": 0,
+                                    "table": "activities",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "updated_at",
+                                    "precision": 0,
+                                    "table": "activities",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                }
+                            ],
+                            "changedColumns": [],
+                            "droppedColumns": [],
+                            "renamedColumns": [],
+                            "commands": [
+                                {
+                                    "name": "create",
+                                    "table": "activities"
+                                }
+                            ],
+                            "createdTables": [
+                                "activities"
+                            ],
+                            "renamedTables": [],
+                            "droppedTables": []
+                        }
+                    ]
+                },
+                "sectionId": 1,
+                "id": 10,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "480",
+                "positionY": "-135.333",
+                "removed": false
+            },
+            "item_11": {
+                "projectId": 1,
+                "name": "places",
+                "migrations": [
+                    {
+                        "migration": "/home/zett/project/kowioha/database/migrations/2024_08_29_095444_create_places_table.php",
+                        "relativePath": "/database/migrations/2024_08_29_095444_create_places_table.php",
+                        "migrationName": "2024_08_29_095444_create_places_table",
+                        "datePrefix": "2024_08_29",
+                        "fullPrefix": "2024_08_29_095444",
+                        "addedColumns": [
+                            {
+                                "type": "uuid",
+                                "name": "id",
+                                "table": "places",
+                                "creatorMethod": "uuid",
+                                "primary": true
+                            },
+                            {
+                                "type": "string",
+                                "name": "name",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "address",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "image",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "description",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "latitude",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "string",
+                                "name": "longitude",
+                                "length": 255,
+                                "table": "places",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "enum",
+                                "name": "type",
+                                "allowed": [
+                                    "wisata",
+                                    "sejarah"
+                                ],
+                                "table": "places",
+                                "creatorMethod": "enum"
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "created_at",
+                                "precision": 0,
+                                "table": "places",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "updated_at",
+                                "precision": 0,
+                                "table": "places",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            }
+                        ],
+                        "changedColumns": [],
+                        "droppedColumns": [],
+                        "renamedColumns": [],
+                        "commands": [
+                            {
+                                "name": "create",
+                                "table": "places"
+                            }
+                        ],
+                        "createdTables": [
+                            "places"
+                        ],
+                        "renamedTables": [],
+                        "droppedTables": []
+                    }
+                ],
+                "oldNames": [],
+                "createdFromInterface": false,
+                "labelColumnId": null,
+                "schemaState": {
+                    "name": "places",
+                    "oldNames": [],
+                    "migrations": [
+                        {
+                            "migration": "/home/zett/project/kowioha/database/migrations/2024_08_29_095444_create_places_table.php",
+                            "relativePath": "/database/migrations/2024_08_29_095444_create_places_table.php",
+                            "migrationName": "2024_08_29_095444_create_places_table",
+                            "datePrefix": "2024_08_29",
+                            "fullPrefix": "2024_08_29_095444",
+                            "addedColumns": [
+                                {
+                                    "type": "uuid",
+                                    "name": "id",
+                                    "table": "places",
+                                    "creatorMethod": "uuid",
+                                    "primary": true
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "name",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "address",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "image",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "description",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "latitude",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "longitude",
+                                    "length": 255,
+                                    "table": "places",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "enum",
+                                    "name": "type",
+                                    "allowed": [
+                                        "wisata",
+                                        "sejarah"
+                                    ],
+                                    "table": "places",
+                                    "creatorMethod": "enum"
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "created_at",
+                                    "precision": 0,
+                                    "table": "places",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "updated_at",
+                                    "precision": 0,
+                                    "table": "places",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                }
+                            ],
+                            "changedColumns": [],
+                            "droppedColumns": [],
+                            "renamedColumns": [],
+                            "commands": [
+                                {
+                                    "name": "create",
+                                    "table": "places"
+                                }
+                            ],
+                            "createdTables": [
+                                "places"
+                            ],
+                            "renamedTables": [],
+                            "droppedTables": []
+                        }
+                    ]
+                },
+                "sectionId": 1,
+                "id": 11,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "-375",
+                "positionY": "236.667",
+                "removed": false
+            },
+            "item_12": {
+                "projectId": 1,
+                "name": "administrations",
+                "migrations": [
+                    {
+                        "migration": "/home/zett/project/kowioha/database/migrations/2024_09_04_053648_create_administrations_table.php",
+                        "relativePath": "/database/migrations/2024_09_04_053648_create_administrations_table.php",
+                        "migrationName": "2024_09_04_053648_create_administrations_table",
+                        "datePrefix": "2024_09_04",
+                        "fullPrefix": "2024_09_04_053648",
+                        "addedColumns": [
+                            {
+                                "type": "uuid",
+                                "name": "id",
+                                "table": "administrations",
+                                "creatorMethod": "uuid",
+                                "primary": true
+                            },
+                            {
+                                "type": "string",
+                                "name": "name",
+                                "length": 255,
+                                "table": "administrations",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "created_at",
+                                "precision": 0,
+                                "table": "administrations",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "updated_at",
+                                "precision": 0,
+                                "table": "administrations",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            }
+                        ],
+                        "changedColumns": [],
+                        "droppedColumns": [],
+                        "renamedColumns": [],
+                        "commands": [
+                            {
+                                "name": "create",
+                                "table": "administrations"
+                            }
+                        ],
+                        "createdTables": [
+                            "administrations"
+                        ],
+                        "renamedTables": [],
+                        "droppedTables": []
+                    }
+                ],
+                "oldNames": [],
+                "createdFromInterface": false,
+                "labelColumnId": null,
+                "schemaState": {
+                    "name": "administrations",
+                    "oldNames": [],
+                    "migrations": [
+                        {
+                            "migration": "/home/zett/project/kowioha/database/migrations/2024_09_04_053648_create_administrations_table.php",
+                            "relativePath": "/database/migrations/2024_09_04_053648_create_administrations_table.php",
+                            "migrationName": "2024_09_04_053648_create_administrations_table",
+                            "datePrefix": "2024_09_04",
+                            "fullPrefix": "2024_09_04_053648",
+                            "addedColumns": [
+                                {
+                                    "type": "uuid",
+                                    "name": "id",
+                                    "table": "administrations",
+                                    "creatorMethod": "uuid",
+                                    "primary": true
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "name",
+                                    "length": 255,
+                                    "table": "administrations",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "created_at",
+                                    "precision": 0,
+                                    "table": "administrations",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "updated_at",
+                                    "precision": 0,
+                                    "table": "administrations",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                }
+                            ],
+                            "changedColumns": [],
+                            "droppedColumns": [],
+                            "renamedColumns": [],
+                            "commands": [
+                                {
+                                    "name": "create",
+                                    "table": "administrations"
+                                }
+                            ],
+                            "createdTables": [
+                                "administrations"
+                            ],
+                            "renamedTables": [],
+                            "droppedTables": []
+                        }
+                    ]
+                },
+                "sectionId": 1,
+                "id": 12,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "188.333",
+                "positionY": "-380",
+                "removed": false
+            },
+            "item_13": {
+                "projectId": 1,
+                "name": "terms",
+                "migrations": [
+                    {
+                        "migration": "/home/zett/project/kowioha/database/migrations/2024_09_04_053836_create_terms_table.php",
+                        "relativePath": "/database/migrations/2024_09_04_053836_create_terms_table.php",
+                        "migrationName": "2024_09_04_053836_create_terms_table",
+                        "datePrefix": "2024_09_04",
+                        "fullPrefix": "2024_09_04_053836",
+                        "addedColumns": [
+                            {
+                                "type": "uuid",
+                                "name": "id",
+                                "table": "terms",
+                                "creatorMethod": "uuid",
+                                "primary": true
+                            },
+                            {
+                                "type": "string",
+                                "name": "file",
+                                "length": 255,
+                                "table": "terms",
+                                "creatorMethod": "string"
+                            },
+                            {
+                                "type": "uuid",
+                                "name": "administration_id",
+                                "table": "terms",
+                                "creatorMethod": "foreignUuid"
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "created_at",
+                                "precision": 0,
+                                "table": "terms",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            },
+                            {
+                                "type": "timestamp",
+                                "name": "updated_at",
+                                "precision": 0,
+                                "table": "terms",
+                                "creatorMethod": "timestamps",
+                                "nullable": true
+                            }
+                        ],
+                        "changedColumns": [],
+                        "droppedColumns": [],
+                        "renamedColumns": [],
+                        "commands": [
+                            {
+                                "name": "create",
+                                "table": "terms"
+                            },
+                            {
+                                "name": "foreign",
+                                "index": "terms_administration_id_foreign",
+                                "columns": [
+                                    "administration_id"
+                                ],
+                                "algorithm": null,
+                                "references": "id",
+                                "on": "administrations",
+                                "onDelete": "cascade",
+                                "table": "terms"
+                            }
+                        ],
+                        "createdTables": [
+                            "terms"
+                        ],
+                        "renamedTables": [],
+                        "droppedTables": []
+                    }
+                ],
+                "oldNames": [],
+                "createdFromInterface": false,
+                "labelColumnId": null,
+                "schemaState": {
+                    "name": "terms",
+                    "oldNames": [],
+                    "migrations": [
+                        {
+                            "migration": "/home/zett/project/kowioha/database/migrations/2024_09_04_053836_create_terms_table.php",
+                            "relativePath": "/database/migrations/2024_09_04_053836_create_terms_table.php",
+                            "migrationName": "2024_09_04_053836_create_terms_table",
+                            "datePrefix": "2024_09_04",
+                            "fullPrefix": "2024_09_04_053836",
+                            "addedColumns": [
+                                {
+                                    "type": "uuid",
+                                    "name": "id",
+                                    "table": "terms",
+                                    "creatorMethod": "uuid",
+                                    "primary": true
+                                },
+                                {
+                                    "type": "string",
+                                    "name": "file",
+                                    "length": 255,
+                                    "table": "terms",
+                                    "creatorMethod": "string"
+                                },
+                                {
+                                    "type": "uuid",
+                                    "name": "administration_id",
+                                    "table": "terms",
+                                    "creatorMethod": "foreignUuid"
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "created_at",
+                                    "precision": 0,
+                                    "table": "terms",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                },
+                                {
+                                    "type": "timestamp",
+                                    "name": "updated_at",
+                                    "precision": 0,
+                                    "table": "terms",
+                                    "creatorMethod": "timestamps",
+                                    "nullable": true
+                                }
+                            ],
+                            "changedColumns": [],
+                            "droppedColumns": [],
+                            "renamedColumns": [],
+                            "commands": [
+                                {
+                                    "name": "create",
+                                    "table": "terms"
+                                },
+                                {
+                                    "name": "foreign",
+                                    "index": "terms_administration_id_foreign",
+                                    "columns": [
+                                        "administration_id"
+                                    ],
+                                    "algorithm": null,
+                                    "references": "id",
+                                    "on": "administrations",
+                                    "onDelete": "cascade",
+                                    "table": "terms"
+                                }
+                            ],
+                            "createdTables": [
+                                "terms"
+                            ],
+                            "renamedTables": [],
+                            "droppedTables": []
+                        }
+                    ]
+                },
+                "sectionId": 1,
+                "id": 13,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "positionX": "-353.333",
+                "positionY": "-290",
                 "removed": false
             }
         },
@@ -3265,15 +3994,16 @@
                 "unsigned": true,
                 "default": "",
                 "autoIncrement": true,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 1,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "__tableData": {
-                "count": 56,
-                "lastPrimaryKey": 56,
+                "count": 80,
+                "lastPrimaryKey": 81,
                 "index": {
                     "1": {
                         "hasMany": {}
@@ -3446,6 +4176,9 @@
                         "hasMany": {
                             "inputs.columnId": [
                                 1
+                            ],
+                            "guarded_model_column.columnId": [
+                                3
                             ]
                         }
                     },
@@ -3505,6 +4238,101 @@
                                 7
                             ]
                         }
+                    },
+                    "57": {
+                        "hasMany": {
+                            "guarded_model_column.columnId": [
+                                1
+                            ]
+                        }
+                    },
+                    "58": {
+                        "hasMany": {}
+                    },
+                    "59": {
+                        "hasMany": {}
+                    },
+                    "60": {
+                        "hasMany": {}
+                    },
+                    "61": {
+                        "hasMany": {}
+                    },
+                    "62": {
+                        "hasMany": {
+                            "guarded_model_column.columnId": [
+                                4
+                            ]
+                        }
+                    },
+                    "63": {
+                        "hasMany": {}
+                    },
+                    "64": {
+                        "hasMany": {}
+                    },
+                    "65": {
+                        "hasMany": {}
+                    },
+                    "66": {
+                        "hasMany": {}
+                    },
+                    "67": {
+                        "hasMany": {}
+                    },
+                    "68": {
+                        "hasMany": {}
+                    },
+                    "69": {
+                        "hasMany": {}
+                    },
+                    "70": {
+                        "hasMany": {}
+                    },
+                    "71": {
+                        "hasMany": {}
+                    },
+                    "72": {
+                        "hasMany": {
+                            "indices.referencesColumnId": [
+                                2
+                            ],
+                            "guarded_model_column.columnId": [
+                                2
+                            ]
+                        }
+                    },
+                    "73": {
+                        "hasMany": {}
+                    },
+                    "74": {
+                        "hasMany": {}
+                    },
+                    "75": {
+                        "hasMany": {}
+                    },
+                    "76": {
+                        "hasMany": {
+                            "guarded_model_column.columnId": [
+                                5
+                            ]
+                        }
+                    },
+                    "77": {
+                        "hasMany": {}
+                    },
+                    "79": {
+                        "hasMany": {}
+                    },
+                    "80": {
+                        "hasMany": {}
+                    },
+                    "81": {
+                        "hasMany": {
+                            "index_column.columnId": [
+                                2
+                            ]
+                        }
                     }
                 },
                 "additionalIndexes": {},
@@ -3528,7 +4356,7 @@
                 "options": [],
                 "id": 2,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_3": {
                 "name": "email",
@@ -3549,7 +4377,7 @@
                 "options": [],
                 "id": 3,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_4": {
                 "name": "email_verified_at",
@@ -3568,7 +4396,7 @@
                 "options": [],
                 "id": 4,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_5": {
                 "name": "password",
@@ -3587,7 +4415,7 @@
                 "options": [],
                 "id": 5,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_6": {
                 "name": "remember_token",
@@ -3608,7 +4436,7 @@
                 "options": [],
                 "id": 6,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_7": {
                 "name": "created_at",
@@ -3627,7 +4455,7 @@
                 "options": [],
                 "id": 7,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_8": {
                 "name": "updated_at",
@@ -3646,7 +4474,7 @@
                 "options": [],
                 "id": 8,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_9": {
                 "name": "email",
@@ -3671,7 +4499,7 @@
                 "options": [],
                 "id": 9,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_10": {
                 "name": "token",
@@ -3690,7 +4518,7 @@
                 "options": [],
                 "id": 10,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_11": {
                 "name": "created_at",
@@ -3709,7 +4537,7 @@
                 "options": [],
                 "id": 11,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_12": {
                 "name": "id",
@@ -3729,11 +4557,12 @@
                 "unsigned": false,
                 "default": "",
                 "autoIncrement": false,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 12,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_13": {
                 "name": "user_id",
@@ -3758,7 +4587,7 @@
                 "options": [],
                 "id": 13,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_14": {
                 "name": "ip_address",
@@ -3779,7 +4608,7 @@
                 "options": [],
                 "id": 14,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_15": {
                 "name": "user_agent",
@@ -3798,7 +4627,7 @@
                 "options": [],
                 "id": 15,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_16": {
                 "name": "payload",
@@ -3815,7 +4644,7 @@
                 "options": [],
                 "id": 16,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_17": {
                 "name": "last_activity",
@@ -3838,7 +4667,7 @@
                 "options": [],
                 "id": 17,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_18": {
                 "name": "key",
@@ -3863,7 +4692,7 @@
                 "options": [],
                 "id": 18,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_19": {
                 "name": "value",
@@ -3880,7 +4709,7 @@
                 "options": [],
                 "id": 19,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_20": {
                 "name": "expiration",
@@ -3901,7 +4730,7 @@
                 "options": [],
                 "id": 20,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_21": {
                 "name": "key",
@@ -3926,7 +4755,7 @@
                 "options": [],
                 "id": 21,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_22": {
                 "name": "owner",
@@ -3945,7 +4774,7 @@
                 "options": [],
                 "id": 22,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_23": {
                 "name": "expiration",
@@ -3966,7 +4795,7 @@
                 "options": [],
                 "id": 23,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_24": {
                 "name": "id",
@@ -3987,11 +4816,12 @@
                 "unsigned": true,
                 "default": "",
                 "autoIncrement": true,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 24,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_25": {
                 "name": "queue",
@@ -4012,7 +4842,7 @@
                 "options": [],
                 "id": 25,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_26": {
                 "name": "payload",
@@ -4029,7 +4859,7 @@
                 "options": [],
                 "id": 26,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_27": {
                 "name": "attempts",
@@ -4050,7 +4880,7 @@
                 "options": [],
                 "id": 27,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_28": {
                 "name": "reserved_at",
@@ -4073,7 +4903,7 @@
                 "options": [],
                 "id": 28,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_29": {
                 "name": "available_at",
@@ -4094,7 +4924,7 @@
                 "options": [],
                 "id": 29,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_30": {
                 "name": "created_at",
@@ -4115,7 +4945,7 @@
                 "options": [],
                 "id": 30,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_31": {
                 "name": "id",
@@ -4135,11 +4965,12 @@
                 "unsigned": false,
                 "default": "",
                 "autoIncrement": false,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 31,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_32": {
                 "name": "name",
@@ -4158,7 +4989,7 @@
                 "options": [],
                 "id": 32,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_33": {
                 "name": "total_jobs",
@@ -4179,7 +5010,7 @@
                 "options": [],
                 "id": 33,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_34": {
                 "name": "pending_jobs",
@@ -4200,7 +5031,7 @@
                 "options": [],
                 "id": 34,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_35": {
                 "name": "failed_jobs",
@@ -4221,7 +5052,7 @@
                 "options": [],
                 "id": 35,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_36": {
                 "name": "failed_job_ids",
@@ -4238,7 +5069,7 @@
                 "options": [],
                 "id": 36,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_37": {
                 "name": "options",
@@ -4257,7 +5088,7 @@
                 "options": [],
                 "id": 37,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_38": {
                 "name": "cancelled_at",
@@ -4280,7 +5111,7 @@
                 "options": [],
                 "id": 38,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_39": {
                 "name": "created_at",
@@ -4301,7 +5132,7 @@
                 "options": [],
                 "id": 39,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_40": {
                 "name": "finished_at",
@@ -4324,7 +5155,7 @@
                 "options": [],
                 "id": 40,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_41": {
                 "name": "id",
@@ -4345,11 +5176,12 @@
                 "unsigned": true,
                 "default": "",
                 "autoIncrement": true,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 41,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_42": {
                 "name": "uuid",
@@ -4370,7 +5202,7 @@
                 "options": [],
                 "id": 42,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_43": {
                 "name": "connection",
@@ -4387,7 +5219,7 @@
                 "options": [],
                 "id": 43,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_44": {
                 "name": "queue",
@@ -4404,7 +5236,7 @@
                 "options": [],
                 "id": 44,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_45": {
                 "name": "payload",
@@ -4421,7 +5253,7 @@
                 "options": [],
                 "id": 45,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_46": {
                 "name": "exception",
@@ -4438,7 +5270,7 @@
                 "options": [],
                 "id": 46,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_47": {
                 "name": "failed_at",
@@ -4455,11 +5287,14 @@
                 "options": [],
                 "id": 47,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_48": {
                 "name": "id",
                 "type": "uuid",
+                "index": false,
+                "length": null,
+                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4467,11 +5302,16 @@
                     "type": "uuid",
                     "options": []
                 },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "faker": "",
                 "order": 0,
                 "options": [],
                 "id": 48,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_49": {
                 "name": "created_at",
@@ -4490,7 +5330,7 @@
                 "options": [],
                 "id": 49,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_50": {
                 "name": "updated_at",
@@ -4509,14 +5349,12 @@
                 "options": [],
                 "id": 50,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_51": {
                 "name": "title",
                 "type": "string",
-                "index": false,
                 "length": 255,
-                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4525,21 +5363,16 @@
                     "type": "string",
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
-                "default": "",
-                "autoIncrement": false,
                 "faker": "fake()->sentence(10)",
                 "order": 1,
                 "options": [],
                 "id": 51,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_52": {
                 "name": "slug",
                 "type": "string",
-                "index": false,
                 "length": 255,
                 "unique": true,
                 "tableId": 9,
@@ -4551,23 +5384,16 @@
                     "unique": true,
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
-                "default": "",
-                "autoIncrement": false,
                 "faker": "fake()->slug()",
                 "order": 2,
                 "options": [],
                 "id": 52,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_53": {
                 "name": "content",
                 "type": "text",
-                "index": false,
-                "length": null,
-                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4575,23 +5401,17 @@
                     "type": "text",
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
-                "default": "",
-                "autoIncrement": false,
                 "faker": "fake()->text()",
                 "order": 3,
                 "options": [],
                 "id": 53,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_54": {
                 "name": "image",
                 "type": "string",
-                "index": false,
                 "length": 255,
-                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4600,22 +5420,17 @@
                     "type": "string",
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
-                "default": "",
-                "autoIncrement": false,
+                "faker": "",
                 "order": 4,
                 "options": [],
                 "id": 54,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_55": {
                 "name": "author",
                 "type": "string",
-                "index": false,
                 "length": 255,
-                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4625,23 +5440,17 @@
                     "default": "admin",
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
                 "default": "admin",
-                "autoIncrement": false,
                 "faker": "fake()->text({LENGTH})",
                 "order": 5,
                 "options": [],
                 "id": 55,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
             },
             "item_56": {
                 "name": "is_published",
                 "type": "boolean",
-                "index": false,
-                "length": null,
-                "unique": false,
                 "tableId": 9,
                 "removed": false,
                 "schemaState": {
@@ -4650,16 +5459,492 @@
                     "default": false,
                     "options": []
                 },
-                "nullable": false,
-                "unsigned": false,
                 "default": false,
-                "autoIncrement": false,
                 "faker": "fake()->boolean()",
                 "order": 6,
                 "options": [],
                 "id": 56,
                 "createdAt": "2024-08-29 15:03:51",
-                "updatedAt": "2024-08-29 15:03:51"
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_57": {
+                "name": "id",
+                "type": "uuid",
+                "index": false,
+                "length": null,
+                "unique": false,
+                "tableId": 10,
+                "removed": false,
+                "schemaState": {
+                    "name": "id",
+                    "type": "uuid",
+                    "options": []
+                },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "order": 0,
+                "options": [],
+                "id": 57,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_58": {
+                "name": "title",
+                "type": "string",
+                "length": 255,
+                "tableId": 10,
+                "removed": false,
+                "schemaState": {
+                    "name": "title",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->sentence(10)",
+                "order": 1,
+                "options": [],
+                "id": 58,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_59": {
+                "name": "image",
+                "type": "string",
+                "length": 255,
+                "tableId": 10,
+                "removed": false,
+                "schemaState": {
+                    "name": "image",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "order": 2,
+                "options": [],
+                "id": 59,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_60": {
+                "name": "created_at",
+                "type": "timestamp",
+                "tableId": 10,
+                "removed": false,
+                "schemaState": {
+                    "name": "created_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 3,
+                "options": [],
+                "id": 60,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_61": {
+                "name": "updated_at",
+                "type": "timestamp",
+                "tableId": 10,
+                "removed": false,
+                "schemaState": {
+                    "name": "updated_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 4,
+                "options": [],
+                "id": 61,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_62": {
+                "name": "id",
+                "type": "uuid",
+                "index": false,
+                "length": null,
+                "unique": false,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "id",
+                    "type": "uuid",
+                    "options": []
+                },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "order": 0,
+                "options": [],
+                "id": 62,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_63": {
+                "name": "name",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "name",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->name()",
+                "order": 1,
+                "options": [],
+                "id": 63,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_64": {
+                "name": "address",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "address",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->address()",
+                "order": 2,
+                "options": [],
+                "id": 64,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_65": {
+                "name": "image",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "image",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "order": 3,
+                "options": [],
+                "id": 65,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_66": {
+                "name": "description",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "description",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->sentence(15)",
+                "order": 4,
+                "options": [],
+                "id": 66,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_67": {
+                "name": "latitude",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "latitude",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->latitude()",
+                "order": 5,
+                "options": [],
+                "id": 67,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_68": {
+                "name": "longitude",
+                "type": "string",
+                "length": 255,
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "longitude",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->longitude()",
+                "order": 6,
+                "options": [],
+                "id": 68,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_69": {
+                "name": "type",
+                "type": "enum",
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "type",
+                    "type": "enum",
+                    "options": [
+                        "wisata",
+                        "sejarah"
+                    ]
+                },
+                "faker": "fake()->word()",
+                "order": 7,
+                "options": [
+                    "wisata",
+                    "sejarah"
+                ],
+                "id": 69,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_70": {
+                "name": "created_at",
+                "type": "timestamp",
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "created_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 8,
+                "options": [],
+                "id": 70,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_71": {
+                "name": "updated_at",
+                "type": "timestamp",
+                "tableId": 11,
+                "removed": false,
+                "schemaState": {
+                    "name": "updated_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 9,
+                "options": [],
+                "id": 71,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_72": {
+                "name": "id",
+                "type": "uuid",
+                "index": false,
+                "length": null,
+                "unique": false,
+                "tableId": 12,
+                "removed": false,
+                "schemaState": {
+                    "name": "id",
+                    "type": "uuid",
+                    "options": []
+                },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "order": 0,
+                "options": [],
+                "id": 72,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_73": {
+                "name": "name",
+                "type": "string",
+                "length": 255,
+                "tableId": 12,
+                "removed": false,
+                "schemaState": {
+                    "name": "name",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "faker": "fake()->name()",
+                "order": 1,
+                "options": [],
+                "id": 73,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_74": {
+                "name": "created_at",
+                "type": "timestamp",
+                "tableId": 12,
+                "removed": false,
+                "schemaState": {
+                    "name": "created_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 2,
+                "options": [],
+                "id": 74,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_75": {
+                "name": "updated_at",
+                "type": "timestamp",
+                "tableId": 12,
+                "removed": false,
+                "schemaState": {
+                    "name": "updated_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 3,
+                "options": [],
+                "id": 75,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_76": {
+                "name": "id",
+                "type": "uuid",
+                "index": false,
+                "length": null,
+                "unique": false,
+                "tableId": 13,
+                "removed": false,
+                "schemaState": {
+                    "name": "id",
+                    "type": "uuid",
+                    "options": []
+                },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "order": 0,
+                "options": [],
+                "id": 76,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_77": {
+                "name": "file",
+                "type": "string",
+                "length": 255,
+                "tableId": 13,
+                "removed": false,
+                "schemaState": {
+                    "name": "file",
+                    "length": 255,
+                    "type": "string",
+                    "options": []
+                },
+                "order": 1,
+                "options": [],
+                "id": 77,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_79": {
+                "name": "created_at",
+                "type": "timestamp",
+                "tableId": 13,
+                "removed": false,
+                "schemaState": {
+                    "name": "created_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 3,
+                "options": [],
+                "id": 79,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_80": {
+                "name": "updated_at",
+                "type": "timestamp",
+                "tableId": 13,
+                "removed": false,
+                "schemaState": {
+                    "name": "updated_at",
+                    "nullable": true,
+                    "type": "timestamp",
+                    "options": []
+                },
+                "nullable": true,
+                "faker": "fake()->dateTime()",
+                "order": 4,
+                "options": [],
+                "id": 80,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34"
+            },
+            "item_81": {
+                "name": "administration_id",
+                "type": "uuid",
+                "index": true,
+                "length": null,
+                "unique": false,
+                "tableId": 13,
+                "removed": false,
+                "schemaState": {
+                    "name": "administration_id",
+                    "type": "uuid",
+                    "index": true,
+                    "options": []
+                },
+                "nullable": false,
+                "unsigned": false,
+                "default": "",
+                "autoIncrement": false,
+                "faker": "fake()->uuid()",
+                "order": 2,
+                "options": [],
+                "id": 81,
+                "createdAt": "2024-09-04 15:02:34",
+                "updatedAt": "2024-09-04 15:02:34"
             }
         },
         "models": {
@@ -4674,12 +5959,17 @@
                 "casts": [],
                 "fillable": [],
                 "guarded": [
-                    "*"
+                    "id"
                 ],
                 "dates": [],
                 "hidden": [],
                 "appends": [],
-                "methods": [],
+                "methods": [
+                    {
+                        "name": "boot",
+                        "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                    }
+                ],
                 "createdFromInterface": false,
                 "parentClass": "Illuminate\\Database\\Eloquent\\Model",
                 "interfaces": [],
@@ -4688,9 +5978,10 @@
                 ],
                 "allImports": [
                     "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
-                    "Illuminate\\Database\\Eloquent\\Model"
+                    "Illuminate\\Database\\Eloquent\\Model",
+                    "Ramsey\\Uuid\\Uuid"
                 ],
-                "hasGuarded": false,
+                "hasGuarded": true,
                 "hasFillable": false,
                 "hasTimestamps": true,
                 "hasSoftDeletes": false,
@@ -4705,12 +5996,17 @@
                     "casts": [],
                     "fillable": [],
                     "guarded": [
-                        "*"
+                        "id"
                     ],
                     "dates": [],
                     "hidden": [],
                     "appends": [],
-                    "methods": [],
+                    "methods": [
+                        {
+                            "name": "boot",
+                            "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                        }
+                    ],
                     "parentClass": "Illuminate\\Database\\Eloquent\\Model",
                     "interfaces": [],
                     "traits": [
@@ -4718,9 +6014,10 @@
                     ],
                     "allImports": [
                         "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
-                        "Illuminate\\Database\\Eloquent\\Model"
+                        "Illuminate\\Database\\Eloquent\\Model",
+                        "Ramsey\\Uuid\\Uuid"
                     ],
-                    "hasGuarded": false,
+                    "hasGuarded": true,
                     "hasFillable": false,
                     "hasTimestamps": true,
                     "hasSoftDeletes": false,
@@ -4728,7 +6025,7 @@
                 },
                 "id": 1,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:52",
+                "updatedAt": "2024-09-04 15:02:34",
                 "plural": "AllNews",
                 "pluralAndSingularAreSame": false,
                 "tableId": 9,
@@ -4739,13 +6036,16 @@
                 "removed": false
             },
             "__tableData": {
-                "count": 2,
-                "lastPrimaryKey": 2,
+                "count": 6,
+                "lastPrimaryKey": 6,
                 "index": {
                     "1": {
                         "hasMany": {
                             "cruds.modelId": [
                                 2
+                            ],
+                            "guarded_model_column.modelId": [
+                                3
                             ]
                         }
                     },
@@ -4763,6 +6063,42 @@
                             "casts_model_column.modelId": [
                                 1,
                                 2
+                            ]
+                        }
+                    },
+                    "3": {
+                        "hasMany": {
+                            "guarded_model_column.modelId": [
+                                1
+                            ]
+                        }
+                    },
+                    "4": {
+                        "hasMany": {
+                            "guarded_model_column.modelId": [
+                                2
+                            ],
+                            "relationships.modelId": [
+                                1
+                            ],
+                            "relationships.relatedModelId": []
+                        }
+                    },
+                    "5": {
+                        "hasMany": {
+                            "guarded_model_column.modelId": [
+                                4
+                            ]
+                        }
+                    },
+                    "6": {
+                        "hasMany": {
+                            "guarded_model_column.modelId": [
+                                5
+                            ],
+                            "relationships.modelId": [],
+                            "relationships.relatedModelId": [
+                                1
                             ]
                         }
                     }
@@ -4862,7 +6198,7 @@
                 },
                 "id": 2,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:03:52",
+                "updatedAt": "2024-09-04 15:02:34",
                 "plural": "Users",
                 "pluralAndSingularAreSame": false,
                 "tableId": 1,
@@ -4870,6 +6206,358 @@
                 "seederQuantity": 5,
                 "attributesComments": true,
                 "methodsComments": true,
+                "removed": false
+            },
+            "item_3": {
+                "projectId": 1,
+                "name": "Activity",
+                "fileName": "Activity.php",
+                "tableName": "activities",
+                "class": "App\\Models\\Activity",
+                "namespace": "App\\Models",
+                "path": "Models/Activity.php",
+                "casts": [],
+                "fillable": [],
+                "guarded": [
+                    "id"
+                ],
+                "dates": [],
+                "hidden": [],
+                "appends": [],
+                "methods": [
+                    {
+                        "name": "boot",
+                        "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                    }
+                ],
+                "createdFromInterface": false,
+                "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                "interfaces": [],
+                "traits": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                ],
+                "allImports": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                    "Illuminate\\Database\\Eloquent\\Model",
+                    "Ramsey\\Uuid\\Uuid"
+                ],
+                "hasGuarded": true,
+                "hasFillable": false,
+                "hasTimestamps": true,
+                "hasSoftDeletes": false,
+                "isAuthenticatable": false,
+                "schemaState": {
+                    "name": "Activity",
+                    "fileName": "Activity.php",
+                    "tableName": "activities",
+                    "class": "App\\Models\\Activity",
+                    "namespace": "App\\Models",
+                    "path": "Models/Activity.php",
+                    "casts": [],
+                    "fillable": [],
+                    "guarded": [
+                        "id"
+                    ],
+                    "dates": [],
+                    "hidden": [],
+                    "appends": [],
+                    "methods": [
+                        {
+                            "name": "boot",
+                            "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                        }
+                    ],
+                    "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                    "interfaces": [],
+                    "traits": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                    ],
+                    "allImports": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                        "Illuminate\\Database\\Eloquent\\Model",
+                        "Ramsey\\Uuid\\Uuid"
+                    ],
+                    "hasGuarded": true,
+                    "hasFillable": false,
+                    "hasTimestamps": true,
+                    "hasSoftDeletes": false,
+                    "isAuthenticatable": false
+                },
+                "id": 3,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "plural": "Activities",
+                "pluralAndSingularAreSame": false,
+                "tableId": 10,
+                "callSeeder": true,
+                "seederQuantity": 5,
+                "attributesComments": false,
+                "methodsComments": false,
+                "removed": false
+            },
+            "item_4": {
+                "projectId": 1,
+                "name": "Administration",
+                "fileName": "Administration.php",
+                "tableName": "administrations",
+                "class": "App\\Models\\Administration",
+                "namespace": "App\\Models",
+                "path": "Models/Administration.php",
+                "casts": [],
+                "fillable": [],
+                "guarded": [
+                    "id"
+                ],
+                "dates": [],
+                "hidden": [],
+                "appends": [],
+                "methods": [
+                    {
+                        "name": "boot",
+                        "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                    }
+                ],
+                "createdFromInterface": false,
+                "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                "interfaces": [],
+                "traits": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                ],
+                "allImports": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                    "Illuminate\\Database\\Eloquent\\Model",
+                    "Illuminate\\Database\\Eloquent\\Relations\\HasMany",
+                    "Ramsey\\Uuid\\Uuid"
+                ],
+                "hasGuarded": true,
+                "hasFillable": false,
+                "hasTimestamps": true,
+                "hasSoftDeletes": false,
+                "isAuthenticatable": false,
+                "schemaState": {
+                    "name": "Administration",
+                    "fileName": "Administration.php",
+                    "tableName": "administrations",
+                    "class": "App\\Models\\Administration",
+                    "namespace": "App\\Models",
+                    "path": "Models/Administration.php",
+                    "casts": [],
+                    "fillable": [],
+                    "guarded": [
+                        "id"
+                    ],
+                    "dates": [],
+                    "hidden": [],
+                    "appends": [],
+                    "methods": [
+                        {
+                            "name": "boot",
+                            "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                        }
+                    ],
+                    "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                    "interfaces": [],
+                    "traits": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                    ],
+                    "allImports": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                        "Illuminate\\Database\\Eloquent\\Model",
+                        "Illuminate\\Database\\Eloquent\\Relations\\HasMany",
+                        "Ramsey\\Uuid\\Uuid"
+                    ],
+                    "hasGuarded": true,
+                    "hasFillable": false,
+                    "hasTimestamps": true,
+                    "hasSoftDeletes": false,
+                    "isAuthenticatable": false
+                },
+                "id": 4,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "plural": "Administrations",
+                "pluralAndSingularAreSame": false,
+                "tableId": 12,
+                "callSeeder": true,
+                "seederQuantity": 5,
+                "attributesComments": false,
+                "methodsComments": false,
+                "removed": false
+            },
+            "item_5": {
+                "projectId": 1,
+                "name": "Place",
+                "fileName": "Place.php",
+                "tableName": "places",
+                "class": "App\\Models\\Place",
+                "namespace": "App\\Models",
+                "path": "Models/Place.php",
+                "casts": [],
+                "fillable": [],
+                "guarded": [
+                    "id"
+                ],
+                "dates": [],
+                "hidden": [],
+                "appends": [],
+                "methods": [
+                    {
+                        "name": "boot",
+                        "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                    }
+                ],
+                "createdFromInterface": false,
+                "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                "interfaces": [],
+                "traits": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                ],
+                "allImports": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                    "Illuminate\\Database\\Eloquent\\Model",
+                    "Ramsey\\Uuid\\Uuid"
+                ],
+                "hasGuarded": true,
+                "hasFillable": false,
+                "hasTimestamps": true,
+                "hasSoftDeletes": false,
+                "isAuthenticatable": false,
+                "schemaState": {
+                    "name": "Place",
+                    "fileName": "Place.php",
+                    "tableName": "places",
+                    "class": "App\\Models\\Place",
+                    "namespace": "App\\Models",
+                    "path": "Models/Place.php",
+                    "casts": [],
+                    "fillable": [],
+                    "guarded": [
+                        "id"
+                    ],
+                    "dates": [],
+                    "hidden": [],
+                    "appends": [],
+                    "methods": [
+                        {
+                            "name": "boot",
+                            "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                        }
+                    ],
+                    "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                    "interfaces": [],
+                    "traits": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                    ],
+                    "allImports": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                        "Illuminate\\Database\\Eloquent\\Model",
+                        "Ramsey\\Uuid\\Uuid"
+                    ],
+                    "hasGuarded": true,
+                    "hasFillable": false,
+                    "hasTimestamps": true,
+                    "hasSoftDeletes": false,
+                    "isAuthenticatable": false
+                },
+                "id": 5,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "plural": "Places",
+                "pluralAndSingularAreSame": false,
+                "tableId": 11,
+                "callSeeder": true,
+                "seederQuantity": 5,
+                "attributesComments": false,
+                "methodsComments": false,
+                "removed": false
+            },
+            "item_6": {
+                "projectId": 1,
+                "name": "Terms",
+                "fileName": "Terms.php",
+                "tableName": "terms",
+                "class": "App\\Models\\Terms",
+                "namespace": "App\\Models",
+                "path": "Models/Terms.php",
+                "casts": [],
+                "fillable": [],
+                "guarded": [
+                    "id"
+                ],
+                "dates": [],
+                "hidden": [],
+                "appends": [],
+                "methods": [
+                    {
+                        "name": "boot",
+                        "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                    }
+                ],
+                "createdFromInterface": false,
+                "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                "interfaces": [],
+                "traits": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                ],
+                "allImports": [
+                    "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                    "Illuminate\\Database\\Eloquent\\Model",
+                    "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo",
+                    "Ramsey\\Uuid\\Uuid"
+                ],
+                "hasGuarded": true,
+                "hasFillable": false,
+                "hasTimestamps": true,
+                "hasSoftDeletes": false,
+                "isAuthenticatable": false,
+                "schemaState": {
+                    "name": "Terms",
+                    "fileName": "Terms.php",
+                    "tableName": "terms",
+                    "class": "App\\Models\\Terms",
+                    "namespace": "App\\Models",
+                    "path": "Models/Terms.php",
+                    "casts": [],
+                    "fillable": [],
+                    "guarded": [
+                        "id"
+                    ],
+                    "dates": [],
+                    "hidden": [],
+                    "appends": [],
+                    "methods": [
+                        {
+                            "name": "boot",
+                            "content": "    protected static function boot()\n    {\n        parent::boot();\n\n        static::creating(function ($model) {\n            if (empty($model->{$model->getKeyName()})) {\n                $model->{$model->getKeyName()} = (string) Uuid::uuid4();\n            }\n        });\n    }\n"
+                        }
+                    ],
+                    "parentClass": "Illuminate\\Database\\Eloquent\\Model",
+                    "interfaces": [],
+                    "traits": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory"
+                    ],
+                    "allImports": [
+                        "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+                        "Illuminate\\Database\\Eloquent\\Model",
+                        "Illuminate\\Database\\Eloquent\\Relations\\BelongsTo",
+                        "Ramsey\\Uuid\\Uuid"
+                    ],
+                    "hasGuarded": true,
+                    "hasFillable": false,
+                    "hasTimestamps": true,
+                    "hasSoftDeletes": false,
+                    "isAuthenticatable": false
+                },
+                "id": 6,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "plural": "AllTerms",
+                "pluralAndSingularAreSame": false,
+                "tableId": 13,
+                "callSeeder": true,
+                "seederQuantity": 5,
+                "attributesComments": false,
+                "methodsComments": false,
                 "removed": false
             }
         },
@@ -5040,7 +6728,7 @@
                 "projectId": 1,
                 "id": 1,
                 "createdAt": "2024-08-29 14:59:31",
-                "updatedAt": "2024-08-29 15:07:27"
+                "updatedAt": "2024-09-04 14:57:28"
             },
             "__tableData": {
                 "count": 2,
@@ -5050,7 +6738,11 @@
                         "hasMany": {
                             "tables.sectionId": [
                                 1,
-                                9
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
                             ]
                         }
                     },
@@ -5632,6 +7324,196 @@
                 "createdAt": "2024-08-29 15:05:37",
                 "updatedAt": "2024-08-29 15:05:37"
             }
+        },
+        "indices": {
+            "__tableData": {
+                "count": 1,
+                "lastPrimaryKey": 2,
+                "index": {
+                    "2": {
+                        "hasMany": {
+                            "index_column.indexId": [
+                                2
+                            ]
+                        }
+                    }
+                },
+                "additionalIndexes": {},
+                "items": [],
+                "relations": []
+            },
+            "item_2": {
+                "tableId": 13,
+                "name": "terms_administration_id_foreign",
+                "columns": [
+                    "administration_id"
+                ],
+                "algorithm": null,
+                "type": "foreign",
+                "on": "administrations",
+                "references": "id",
+                "onDelete": "cascade",
+                "schemaState": {
+                    "name": "terms_administration_id_foreign",
+                    "columns": [
+                        "administration_id"
+                    ],
+                    "algorithm": null,
+                    "type": "foreign",
+                    "on": "administrations",
+                    "references": "id",
+                    "onDelete": "cascade"
+                },
+                "id": 2,
+                "createdAt": "2024-09-04 15:02:34",
+                "updatedAt": "2024-09-04 15:02:34",
+                "onTableId": 12,
+                "referencesColumnId": 72
+            }
+        },
+        "index_column": {
+            "__tableData": {
+                "count": 1,
+                "lastPrimaryKey": 2,
+                "index": {
+                    "2": {
+                        "hasMany": {}
+                    }
+                },
+                "additionalIndexes": {},
+                "items": [],
+                "relations": []
+            },
+            "item_2": {
+                "indexId": 2,
+                "columnId": 81,
+                "id": 2,
+                "createdAt": "2024-09-04 15:02:34",
+                "updatedAt": "2024-09-04 15:02:34"
+            }
+        },
+        "guarded_model_column": {
+            "item_1": {
+                "modelId": 3,
+                "columnId": 57,
+                "id": 1,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 14:57:36"
+            },
+            "__tableData": {
+                "count": 5,
+                "lastPrimaryKey": 5,
+                "index": {
+                    "1": {
+                        "hasMany": {}
+                    },
+                    "2": {
+                        "hasMany": {}
+                    },
+                    "3": {
+                        "hasMany": {}
+                    },
+                    "4": {
+                        "hasMany": {}
+                    },
+                    "5": {
+                        "hasMany": {}
+                    }
+                },
+                "additionalIndexes": {},
+                "items": [],
+                "relations": []
+            },
+            "item_2": {
+                "modelId": 4,
+                "columnId": 72,
+                "id": 2,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 14:57:36"
+            },
+            "item_3": {
+                "modelId": 1,
+                "columnId": 48,
+                "id": 3,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 14:57:36"
+            },
+            "item_4": {
+                "modelId": 5,
+                "columnId": 62,
+                "id": 4,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 14:57:36"
+            },
+            "item_5": {
+                "modelId": 6,
+                "columnId": 76,
+                "id": 5,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 14:57:36"
+            }
+        },
+        "relationships": {
+            "item_1": {
+                "modelId": 4,
+                "projectId": 1,
+                "name": "terms",
+                "type": "HasMany",
+                "relatedTableName": "terms",
+                "relatedModelName": "App\\Models\\Terms",
+                "parentTableName": "administrations",
+                "parentModelName": "App\\Models\\Administration",
+                "foreignKeyName": "administration_id",
+                "localKeyName": "id",
+                "ownerKeyName": null,
+                "relatedKeyName": null,
+                "morphType": null,
+                "createdFromInterface": false,
+                "foreignPivotKeyName": null,
+                "relatedPivotKeyName": null,
+                "pivotTableName": null,
+                "firstKeyName": null,
+                "secondKeyName": null,
+                "withPivotColumns": false,
+                "includedPivotColumns": [],
+                "schemaState": {
+                    "name": "terms",
+                    "type": "HasMany",
+                    "relatedTableName": "terms",
+                    "relatedModelName": "App\\Models\\Terms",
+                    "parentTableName": "administrations",
+                    "parentModelName": "App\\Models\\Administration",
+                    "foreignKeyName": "administration_id",
+                    "localKeyName": "id",
+                    "ownerKeyName": null,
+                    "relatedKeyName": null,
+                    "morphType": null,
+                    "foreignPivotKeyName": null,
+                    "relatedPivotKeyName": null,
+                    "pivotTableName": null,
+                    "firstKeyName": null,
+                    "secondKeyName": null,
+                    "withPivotColumns": false,
+                    "includedPivotColumns": []
+                },
+                "id": 1,
+                "createdAt": "2024-09-04 14:57:36",
+                "updatedAt": "2024-09-04 15:02:34",
+                "removed": false,
+                "relatedModelId": 6
+            },
+            "__tableData": {
+                "count": 1,
+                "lastPrimaryKey": 3,
+                "index": {
+                    "1": {
+                        "hasMany": {}
+                    }
+                },
+                "additionalIndexes": {},
+                "items": [],
+                "relations": []
+            }
         }
     },
     "tablesNames": [
@@ -5648,6 +7530,10 @@
         "cruds",
         "crud_panels",
         "routes",
-        "inputs"
+        "inputs",
+        "indices",
+        "index_column",
+        "guarded_model_column",
+        "relationships"
     ]
 }

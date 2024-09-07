@@ -1,4 +1,13 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog";
+
 import Layout from "@/layout";
 import Maps from "./maps";
 
@@ -6,21 +15,23 @@ const TABS = ["all", "situs", "wisata"];
 
 const Card = ({ place }) => {
     return (
-        <div className="w-full py-4 flex gap-x-4">
-            <div className="w-1/4">
-                <img
-                    className="w-full object-cover"
-                    src={place.image}
-                    alt={place.name}
-                />
+        <section>
+            <div className="w-full py-4 flex gap-x-4">
+                <div className="w-1/4">
+                    <img
+                        className="w-full object-cover"
+                        src={place.image}
+                        alt={place.name}
+                    />
+                </div>
+                <div className="flex-1">
+                    <h1 className="text-base line-clamp-1">{place.name}</h1>
+                    <p className="text-sm line-clamp-3 text-gray-600 mt-1 text-justify">
+                        {place.description}
+                    </p>
+                </div>
             </div>
-            <div className="flex-1">
-                <h1 className="text-base line-clamp-1">{place.name}</h1>
-                <p className="text-sm line-clamp-3 text-gray-600 mt-1 text-justify">
-                    {place.description}
-                </p>
-            </div>
-        </div>
+        </section>
     );
 };
 
@@ -35,9 +46,9 @@ export default function Place({ places }) {
     }
     return (
         <Layout>
-            <section className="w-full md:w-10/12 mx-auto px-4 md:px-0">
-                <div className="flex flex-col lg:flex-row gap-4">
-                    <div className="w-8/12 h-full">
+            <section className="w-full md:w-10/12 lg:w-8/12 mx-auto px-4 md:px-0">
+                <div className="flex flex-col gap-4">
+                    <div className="w-full h-full">
                         <Maps />
                     </div>
                     <div className="flex-1 px-4">

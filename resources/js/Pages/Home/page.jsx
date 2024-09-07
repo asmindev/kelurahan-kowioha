@@ -4,6 +4,7 @@ import Slider from "./slider";
 import News from "./news";
 import Activity from "./activity";
 import OrgChart from "@/components/ui/org";
+import { Link } from "@inertiajs/react";
 
 export default function Page({ lastNews, lastActivity }) {
     return (
@@ -80,22 +81,28 @@ export default function Page({ lastNews, lastActivity }) {
                         <div className="w-full md:w-1/2">
                             <h1 className="text-4xl font-semibold">Kowioha</h1>
                             <div className="grid grid-cols-2 gap-2 md:gap-4 auto-rows-fr">
-                                <div className="w-full mt-4 p-3 rounded-md border">
+                                <Link
+                                    href="/lokasi?tab=wisata"
+                                    className="w-full mt-4 p-3 rounded-md border"
+                                >
                                     <h1 className="text-xl font-bold">
                                         Wisata Desa
                                     </h1>
                                     <p className="text-sm text-gray-600">
                                         Daftar Wisata di Kelurahan Kowioha
                                     </p>
-                                </div>
-                                <div className="w-full mt-4 p-3 rounded-md border">
+                                </Link>
+                                <Link
+                                    href="/lokasi?tab=situs"
+                                    className="w-full mt-4 p-3 rounded-md border"
+                                >
                                     <h1 className="text-xl font-bold">
                                         Situs Sejarah
                                     </h1>
                                     <p className="text-sm text-gray-600">
                                         Daftar Wisata di Kelurahan Kowioha
                                     </p>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

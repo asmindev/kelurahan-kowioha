@@ -8,11 +8,8 @@ export default function Activity({ data }) {
         <Marquee options={{ direction: "rtl", speed: 100 }}>
             {data.map((item) => (
                 <SplideSlide key={item.id}>
-                    <Link
-                        href={`/berita/${item.slug}`}
-                        className="block w-full h-full border rounded-xl group transition-all duration-300"
-                    >
-                        <div className="w-full h-56 relative group overflow-hidden text-left">
+                    <Link className="block w-full h-full border rounded-xl group transition-all duration-300">
+                        <div className="w-full  h-40 md:h-56 relative group overflow-hidden text-left">
                             <img
                                 src={item.image}
                                 className="w-full h-full object-cover"
