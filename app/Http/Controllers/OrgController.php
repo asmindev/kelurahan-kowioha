@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Staff;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -13,6 +14,7 @@ class OrgController extends Controller
     public function __invoke(Request $request)
     {
         //
-        return Inertia::render('Organizational.page');
+        $staff = Staff::all();
+        return Inertia::render('Organizational.page', compact('staff'));
     }
 }

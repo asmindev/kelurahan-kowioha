@@ -57,6 +57,8 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->registration(Register::class)
+            ->emailVerification()
+            ->passwordReset()
             ->authGuard('users')
             ->plugin(
                 BreezyCore::make()

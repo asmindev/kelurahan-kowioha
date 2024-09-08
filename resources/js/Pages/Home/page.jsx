@@ -108,7 +108,7 @@ export default function Page({ lastNews, lastActivity }) {
                     </div>
                 </div>
             </section>
-            <section className="min-h-[80vh] flex items-center">
+            {/* <section className="min-h-[80vh] flex items-center">
                 <div className="w-full">
                     <div className="text-center mt-12">
                         <h1 className="text-3xl font-bold text-gray-600">
@@ -122,7 +122,7 @@ export default function Page({ lastNews, lastActivity }) {
                         <OrgChart />
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="min-h-[80vh] flex items-center">
                 <div className="w-full">
                     <div className="text-center mt-12">
