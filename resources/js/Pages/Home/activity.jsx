@@ -11,7 +11,7 @@ export default function Activity({ data }) {
                     <Link className="block w-full h-full border rounded-xl group transition-all duration-300">
                         <div className="w-full  h-40 md:h-56 relative group overflow-hidden text-left">
                             <img
-                                src={item.image}
+                                src={`/storage/${item.image}`}
                                 className="w-full h-full object-cover"
                             />
                             <div className="absolute -bottom-12 group-hover:bottom-0 left-0 w-full transition-all duration-300 p-0.5">

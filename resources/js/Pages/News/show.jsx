@@ -4,14 +4,13 @@ import { Link } from "@inertiajs/react";
 import React from "react";
 
 export default function Detail({ news, last }) {
-    const url = new URL(window.location.href);
     return (
         <Layout>
             <div className="w-full md:w-8/12 mx-auto px-4 md:px-0">
                 <div className="flex gap-8 my-8">
                     <div className="flex-1">
                         <img
-                            src={`${url.origin}/storage/${news.image}`}
+                            src={`/storage/${news.image}`}
                             alt={news.title}
                             className="w-full h-96 object-cover"
                         />
