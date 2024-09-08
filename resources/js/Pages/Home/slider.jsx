@@ -6,13 +6,13 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-const Content = () => {
-    return (
-        <img
-            className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1723908183237-d8af011f465d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        />
-    );
+const images = [
+    "https://res.cloudinary.com/dwcdtvmyy/image/upload/v1725835338/WhatsApp_Image_2024-09-09_at_06.40.08_ko2jyd.jpg",
+    "https://res.cloudinary.com/dwcdtvmyy/image/upload/v1725835414/WhatsApp_Image_2024-09-09_at_06.40.06_xungyk.jpg",
+    "https://res.cloudinary.com/dwcdtvmyy/image/upload/v1725835416/WhatsApp_Image_2024-09-09_at_06.40.07_yiuwe0.jpg",
+];
+const Content = ({ image }) => {
+    return <img className="w-full h-full object-cover" src={image} />;
 };
 export default function Slider() {
     return (
@@ -24,10 +24,10 @@ export default function Slider() {
             ]}
         >
             <CarouselContent>
-                {Array.from({ length: 3 }).map((_, index) => (
+                {images.map((image, index) => (
                     <CarouselItem key={index}>
-                        <div className="w-full md:w-11/12 h-[27rem] mx-auto">
-                            <Content />
+                        <div className="w-full md:w-11/12 h-[30rem] mx-auto">
+                            <Content image={image} />
                         </div>
                     </CarouselItem>
                 ))}

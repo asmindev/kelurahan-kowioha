@@ -8,8 +8,8 @@ export default function Profile() {
         <Layout>
             <section className="w-full h-[80vh] relative ">
                 <img
-                    className="w-full h-full object-cover"
-                    src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGdyb3VwfGVufDB8fDB8fHww"
+                    className="w-full h-full object-cover object-bottom"
+                    src="https://res.cloudinary.com/dwcdtvmyy/image/upload/v1725835338/WhatsApp_Image_2024-09-09_at_06.40.08_ko2jyd.jpg"
                     alt="Lambang"
                 />
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
