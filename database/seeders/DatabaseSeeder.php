@@ -22,7 +22,8 @@ class DatabaseSeeder extends Seeder
 
         User::factory()->create([
             'name' => 'Test User',
-            'email' => 'tes@tes.com',
+            'email' => 'test@tes.com',
+            'password' => bcrypt('123'),
         ]);
 
         $this->call(NewsSeeder::class);

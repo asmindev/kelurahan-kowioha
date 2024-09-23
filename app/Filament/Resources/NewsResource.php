@@ -47,9 +47,8 @@ class NewsResource extends Resource
                         Forms\Components\TextInput::make('title')
                             ->label('Judul')
                             ->required()
-                            ->live()
+                            ->live(onBlur: true)
                             ->afterStateUpdated(function (Get $get, Set $set, ?string $operation, ?string $old, ?string $state, ?Model $record) {
-
                                 if ($operation == 'edit' && $record->isPublished()) {
                                     return;
                                 }

@@ -24,4 +24,8 @@ class News extends Model
             }
         });
     }
+    public function isPublished()
+    {
+        return $this->is_published;
+    }
 }
