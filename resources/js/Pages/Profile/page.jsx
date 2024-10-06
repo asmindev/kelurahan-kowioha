@@ -12,7 +12,7 @@ const addClass = (content) => {
     return mission;
 };
 
-export default function Profile({ content, staff }) {
+export default function Profile({ content = {}, staff }) {
     console.log(staff);
     return (
         <Layout>
@@ -26,7 +26,7 @@ export default function Profile({ content, staff }) {
                     <div className="w-full flex items-center justify-center text-center">
                         <div>
                             <h1 className="text-5xl md:text-7xl font-black uppercase text-white">
-                                Profil {content.village_name}
+                                Profil {content?.village_name}
                             </h1>
                             <h2 className="text-3xl text-white uppercase font-black">
                                 Kecamatan Wundulako, Kabupaten Kolaka
@@ -54,7 +54,7 @@ export default function Profile({ content, staff }) {
                                 <p
                                     className="text-gray-600 text-xl font-medium"
                                     dangerouslySetInnerHTML={{
-                                        __html: content.vision,
+                                        __html: content?.vision || "",
                                     }}
                                 />
                             </div>
@@ -63,7 +63,9 @@ export default function Profile({ content, staff }) {
                                 <p
                                     className="text-gray-600 text-xl font-medium"
                                     dangerouslySetInnerHTML={{
-                                        __html: addClass(content.mission),
+                                        __html: addClass(
+                                            content?.mission || ""
+                                        ),
                                     }}
                                 ></p>
                             </div>
@@ -84,7 +86,7 @@ export default function Profile({ content, staff }) {
             <section className="w-full md:w-10/12 lg:w-8/12 mx-auto min-h-[80vh] flex items-center">
                 <div className="w-full">
                     <h1 className="text-3xl font-bold text-center underline underline-offset-2">
-                        Peta Lokasi {content.village_name}
+                        Peta Lokasi {content?.village_name}
                     </h1>
                     <div className="mt-4 w-full h-96">
                         <Maps />
