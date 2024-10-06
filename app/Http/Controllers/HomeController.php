@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Activity;
+use App\Models\Content;
 use App\Models\News;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -18,9 +19,11 @@ class HomeController extends Controller
         // get the 5 latest news
         $lastActivity = Activity::orderBy('created_at', 'desc')->limit(5)->get();
         $lastNews = News::orderBy('created_at', 'desc')->limit(5)->get();
+        $content = Content::with('image_sliders')->get()->first();
         return Inertia::render('Home.page', [
             'lastActivity' => $lastActivity,
-            'lastNews' => $lastNews
+            'lastNews' => $lastNews,
+            'content' => $content
         ]);
     }
 }

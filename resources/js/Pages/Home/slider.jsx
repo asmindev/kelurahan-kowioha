@@ -12,9 +12,14 @@ const images = [
     "https://res.cloudinary.com/dwcdtvmyy/image/upload/v1725835416/WhatsApp_Image_2024-09-09_at_06.40.07_yiuwe0.jpg",
 ];
 const Content = ({ image }) => {
-    return <img className="w-full h-full object-cover" src={image} />;
+    return (
+        <img
+            className="w-full h-full object-cover"
+            src={`/storage/${image.image}`}
+        />
+    );
 };
-export default function Slider() {
+export default function Slider({ data }) {
     return (
         <Carousel
             plugins={[
@@ -24,7 +29,7 @@ export default function Slider() {
             ]}
         >
             <CarouselContent>
-                {images.map((image, index) => (
+                {data.map((image, index) => (
                     <CarouselItem key={index}>
                         <div className="w-full md:w-11/12 h-[30rem] mx-auto">
                             <Content image={image} />

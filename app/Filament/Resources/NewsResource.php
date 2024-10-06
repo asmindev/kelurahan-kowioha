@@ -33,12 +33,6 @@ class NewsResource extends Resource
     public static function form(Form $form): Form
     {
         return $form
-            // $table->string('title');
-            //     $table->string('slug')->unique();
-            //     $table->text('content');
-            //     $table->string('image');
-            //     $table->string('author')->default('admin');
-            //     $table->boolean('is_published')->default(false);
             ->schema([
                 Section::make("General")
                     ->columns(2)
